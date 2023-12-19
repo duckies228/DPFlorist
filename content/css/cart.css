@@ -1,0 +1,169 @@
+:root {
+    --border-radius: 8px;
+}
+
+.main {
+    background-color: #F5F5F5;
+}
+
+.container {
+    width: 1230px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.container-head {
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 898px;
+    height: 52px;
+    padding: 24px 14px;
+}
+
+.checkbox label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+}
+
+.cotainer-button {
+    padding: 8px 15px;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    cursor: pointer;
+    height: 38px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-left {
+    padding: 24px;
+    background-color: #fff;
+    margin-top: 20px;
+    height: 183px;
+    width: 898px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 88px;
+    height: 88px;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    margin-right: 198px;
+}
+
+.card-head {
+    margin-left: 30px;
+}
+
+.card-content_heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    margin-bottom: 20px;
+}
+
+.card-content_date {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.count {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 235px;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-right {
+    width: 230px;
+    height: 183px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-right_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+}
+
+.card-right_price {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card-right_btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 6px 24px;
+    border-radius: var(--border-radius);
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+}
+
+.car-del {
+    border-radius: var(--border-radius);
+    border-top: 1px solid #EDEDED;
+    width: 898px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    padding: 24px;
+    color: var(--black-text);
+}
+
+.del-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: var(--black-text);
+}
+
+.card-del_total {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

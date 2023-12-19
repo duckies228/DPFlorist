@@ -1,0 +1,58 @@
+.container-news{
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news-detail-child{
+    
+    width: calc(33.33% - 10px);
+    margin-bottom: 30px;
+    padding: 15px;
+    /* box-sizing: border-box; */
+    Padding :0px, 15px, 30px, 15px
+}
+.news-content{
+    background-color: #0D1723;
+    color: white;
+    text-align: center;
+    
+}
+.news-detail_tittle{
+    padding: 5px 5px;
+;    font-size: large;
+}
+.news-detail_tittle-child{
+    padding: 5px;
+}
+.more{
+    color: #007bff;
+    padding-bottom:  60px;
+}
+.date{
+    padding: 5px 5px;
+}
+/* phân trang */
+.pagination {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination a {
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+ 

@@ -1,0 +1,88 @@
+.main {
+    width: var(--max-width);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main-card {
+    width: 380px;
+    display: block;
+    color: var(--black-text);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all 0.25s linear;
+}
+
+.main-card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-price {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-heading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    color: #666666;
+    gap: 5px;
+}
+.pagination {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}

@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.album {
+
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width:20%;
+    height: auto;
+    padding: 15px;
+ 
+}
+
+.container-libary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.libary-child {
+    padding: 20px;
+    padding-bottom: 20px;
+
+}

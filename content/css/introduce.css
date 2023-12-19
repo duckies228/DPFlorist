@@ -1,0 +1,147 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1230px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.intro-left {
+    width: 581px;
+    color: var(--black-text);
+}
+
+.intro-left_heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.intro-left_heading span {
+    color: var(--primary-color);
+}
+
+.intro-left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+
+/* achievement */
+
+.achievement {
+    width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.achievement-card {
+    text-align: center;
+    width: 307px;
+    height: 204px;
+    color: var(--black-text);
+}
+
+.achievement-card_img {
+    margin: 0 auto;
+}
+
+.achievement-card_heading {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: calc(61 / 52);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.achievement-card_desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    color: #666;
+}
+
+.stayhotel {
+    background-image: url(../images/figma/hotel-bgi1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 311px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+.stayhotel::after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.stayhotel-content {
+    width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.stayhotel-content_heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    margin-bottom: 16px;
+}
+
+.stayhotel-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 16px;
+    gap: 0 8px;
+}
+
+.stayhotel-star {
+    color: #FFFF00;
+}
+
+.stayhotel-conent-desc {
+    width: 826px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+}
+
+
+/* partner */
+
+.partner-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
